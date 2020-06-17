@@ -1,0 +1,12 @@
+    @mark.door
+    @mark.body
+    def test_body_as_expected():
+    assert True
+
+    @mark.body
+    def test_bumper():
+    assert True
+
+    @mark.body
+    def test_windshield():
+    assert True
